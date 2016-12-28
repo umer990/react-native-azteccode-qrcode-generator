@@ -91,5 +91,5 @@ prop      | type                 | default value
 `fgColor` | `string` (CSS color) | `"#000000"`
 
 <img src='qrcode.png' height = '256' width = '256'/>
-<img src='azteccode.png' height = '256' width = '256'/>
+<img src='azteccode.PNG' height = '256' width = '256'/>
 

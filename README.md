@@ -1,19 +1,21 @@
 # react-native-azteccode-qrcode-generator
-A react-native component to generate AztecCode and [QRcode](http://en.wikipedia.org/wiki/QR_code) , not only support English.
+A react-native component to generate [AztecCode](http://members.chello.at/easyfilter/barcode.js) and [QRcode](http://en.wikipedia.org/wiki/QR_code) , not only support English.
 
 ## this module support iOS and Android
 
 ## Installation
 ```sh
-npm install react-native-qrcode --save-dev
+npm install https://github.com/umer990/react-native-azteccode-qrcode-generator/tarball/master --save-dev
 ```
 ## Usage
 ```jsx
 'use strict';
 
 import React, { Component } from 'react'
-import QRCode from 'react-native-qrcode';
-import Aztec from 'react-native-qrcode';
+import code from 'react-native-azteccode-qrcode-generator';
+
+Aztec=code.Aztec;
+QRCode=code.QRCode;
 
 import {
     AppRegistry,
@@ -24,7 +26,7 @@ import {
 
 class HelloWorld extends Component {
   state = {
-    text: 'http://facebook.github.io/react-native/',
+    text: 'react-native-azteccode-qrcode',
   };
 
   render() {
@@ -60,11 +62,11 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
-welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
+    welcome: {
+        fontSize: 20,
+        textAlign: 'center',
+        margin: 10,
+      },
     input: {
         height: 40,
         borderColor: 'gray',

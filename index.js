@@ -1,2 +1,2 @@
-module.exports = require('./lib/QRCode.js');
-module.exports = require('./lib/Aztec.js');
+module.exports = {QRCode:require('./lib/QRCode.js'),
+                     Aztec: require('./lib/Aztec.js')}

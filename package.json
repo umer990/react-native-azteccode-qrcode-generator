@@ -1,89 +1,24 @@
+
 {
-  "_args": [
-    [
-      {
-        "raw": "react-native-qrcode",
-        "scope": null,
-        "escapedName": "react-native-qrcode",
-        "name": "react-native-qrcode",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "C:\\Users\\umer\\Documents\\fotografiska\\AwesomeProject"
-    ]
-  ],
-  "_from": "react-native-qrcode@latest",
-  "_id": "react-native-qrcode@0.2.3",
-  "_inCache": true,
-  "_location": "/react-native-qrcode",
-  "_nodeVersion": "7.0.0",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/react-native-qrcode-0.2.3.tgz_1478965258401_0.8170983430463821"
+  "name": "react-native-azteccode-qrcode-generator",
+  "version": "0.2.3",
+  "description": "react-native Aztec and qrocode generator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cssivision/react-native-qrcode.git"
   },
-  "_npmUser": {
-    "name": "cssivision",
-    "email": "cssivision@gmail.com"
-  },
-  "_npmVersion": "4.0.0",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "react-native-qrcode",
-    "scope": null,
-    "escapedName": "react-native-qrcode",
-    "name": "react-native-qrcode",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-native-qrcode/-/react-native-qrcode-0.2.3.tgz",
-  "_shasum": "cce06c5a8509c1f55a18d79053ace6fa0cedb376",
-  "_shrinkwrap": null,
-  "_spec": "react-native-qrcode",
-  "_where": "C:\\Users\\umer\\Documents\\fotografiska\\AwesomeProject",
-  "author": {
-    "name": "sivision.chen",
-    "email": "cssivision@gmail.com"
-  },
-  "bugs": {
-    "url": "https://github.com/cssivision/react-native-qrcode/issues"
-  },
-  "dependencies": {
-    "qr.js": "0.0.0"
-  },
-  "description": "react-native qrocode generator",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "cce06c5a8509c1f55a18d79053ace6fa0cedb376",
-    "tarball": "https://registry.npmjs.org/react-native-qrcode/-/react-native-qrcode-0.2.3.tgz"
-  },
-  "gitHead": "6c160449605461c8e06a20488f150d2a66d28c95",
-  "homepage": "https://github.com/cssivision/react-native-qrcode#readme",
   "keywords": [
     "react-native",
     "qrcode"
   ],
+  "author": "umer.malik <umerkhan@outlook.com>",
   "license": "MIT",
-  "main": "index.js",
-  "maintainers": [
-    {
-      "name": "cssivision",
-      "email": "cssivision@gmail.com"
-    }
-  ],
-  "name": "react-native-qrcode",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cssivision/react-native-qrcode.git"
+  "bugs": {
+    "url": "https://github.com/cssivision/react-native-qrcode/issues"
   },
-  "scripts": {},
-  "version": "0.2.3"
+  "homepage": "https://github.com/cssivision/react-native-qrcode#readme",
+  "dependencies": {
+    "qr.js": "0.0.0"
+  }
 }
